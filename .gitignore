@@ -1,0 +1,53 @@
+#############
+# Python Cache
+#############
+__pycache__/
+*.pyc
+*.pyo
+
+#############
+# Virtual Envs
+#############
+venv/
+.env/
+.venv/
+
+#############
+# IDE / System
+#############
+.vscode/
+.idea/
+.DS_Store
+
+#############
+# Project Data (Large Files)
+#############
+data/dataset/
+data/sample/
+data/data_to_npy/
+data_to_npy/
+
+#############
+# Extracted Features
+#############
+features/
+feature_test_50samples/
+
+#############
+# Numpy Files (Large)
+#############
+*.npy
+*.npz
+
+#############
+# Pretrained Weights
+#############
+extract_weights/dinov2-base/
+extract_weights/weights_vit_base_224/
+extract_weights/mlp_head_trained_weights.npz
+
+#############
+# Logs
+#############
+*.log
+log.txt

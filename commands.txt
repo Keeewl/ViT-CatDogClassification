@@ -1,0 +1,4 @@
+1. 单张图片推理
+python inference/sample_inference.py --image data/sample/xxx.jpg
+
+2. 
